@@ -1,0 +1,27 @@
+.footer{
+	background: #f0f0f0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	ul{
+		border-top: 1px solid #ccc;
+		li{
+			list-style: none;
+			width: 25%;
+			height: 4rem;
+			line-height: 4rem;
+			float: left;
+			text-align: center;
+			font-size: 1.3rem;
+			a{
+				color: #333;
+			}
+			a:hover{
+				color: #38A2FA;
+			}
+			a:active{
+				color: #38A2FA;
+			}
+		}
+	}
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+.footer {
+  background: #f0f0f0;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer ul {
+    border-top: 1px solid #ccc; }
+    .footer ul li {
+      list-style: none;
+      width: 25%;
+      height: 4rem;
+      line-height: 4rem;
+      float: left;
+      text-align: center;
+      font-size: 1.3rem; }
+      .footer ul li a {
+        color: #333; }
+      .footer ul li a:hover {
+        color: #38A2FA; }
+      .footer ul li a:active {
+        color: #38A2FA; }
+
+.head {
+  height: 15rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem; }
+  .head .face {
+    margin-top: 0;
+    width: 100%;
+    height: 10rem;
+    text-align: center; }
+    .head .face .face-item {
+      display: inline-block;
+      margin-top: 3rem;
+      width: 8rem;
+      height: 8rem;
+      background: #595959;
+      border-radius: 5.5rem; }
+    .head .face .name {
+      width: 100%;
+      padding-top: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: bold; }
+
+.content {
+  font-size: 1.3rem; }
+  .content .li-frist {
+    position: relative;
+    list-style-type: none; }
+    .content .li-frist .list {
+      display: block;
+      padding: 1rem 1rem;
+      color: black;
+      background-color: #fff;
+      border: 0.05rem solid #ddd; }
+      .content .li-frist .list .fa-chevron-right {
+        float: right;
+        padding-top: 0.15rem; }
+      .content .li-frist .list .reminder {
+        position: absolute;
+        right: 3rem;
+        color: red;
+        font-size: 1.25rem;
+        font-weight: bold; }
+    .content .li-frist .identification {
+      position: relative;
+      top: 0rem;
+      left: 55%;
+      color: red; }
+
+/*# sourceMappingURL=home.css.map */

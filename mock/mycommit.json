@@ -1,0 +1,27 @@
+{ 
+  "code": "0",
+  "ext": "success",
+  "obj": {
+   "1": {
+      "id": "1",
+      "description": "房顶漏水",
+      "createtime": "2016-11-22 18:30:54",
+      "verifiedstate": "待受理",
+      "type": "家庭维修"
+    },
+    "2": {
+      "id": "2",
+      "description": "闷坏了",
+      "createtime": "2016-11-15 18:30:54",
+      "verifiedstate": "待受理",
+      "type": "家庭维修"
+    },
+    "3": {
+      "id": "1",
+      "description": "喷泉不喷水了",
+      "createtime": "2016-11-22 18:29:36",
+      "verifiedstate": "待受理",
+      "type": "公共报修"
+    }
+  }
+}

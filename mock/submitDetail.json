@@ -1,0 +1,12 @@
+{
+    "code":"0",
+    "ext":"已受理",
+    "obj":{
+      "time":"提交时间",
+      "type":"维修/保修类型",
+      "description":"描述",
+      "pic":"图片",
+      "state":"已完成",
+      "information":"师傅信息"
+    }
+}

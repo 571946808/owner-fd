@@ -1,0 +1,19 @@
+{
+    "code":"0",
+    "errMsg":"success",
+    "obj":{
+        "id": "1",
+        "name": "李四",
+        "city": "贵州省 贵阳市 南明区",
+        "residence_name": "银湖柳苑",
+        "unit":"5栋5单元",
+        "house_num":"101",
+        "id_num":"360111111111111",
+        "date":"2016-10-20 17:32:14"
+    },
+    "areaInfo":{
+        "provinceId":"530000",
+        "cityId": "530300" ,
+        "districtId": "530321"
+    }
+}

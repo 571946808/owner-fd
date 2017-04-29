@@ -1,0 +1,13 @@
+{
+  "code": "0",
+  "ext": "success",
+  "obj": {
+    "1": {
+      "id": "1",
+      "createtime": "2016-11-22 18:29:36",
+      "description": "喷泉不喷水了",
+      "pic": null,
+      "verifiedstate": "待受理"
+    }
+  }
+}

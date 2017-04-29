@@ -1,0 +1,67 @@
+@import "../partial/base";
+/*------------------------- add start--------------------------------*/
+.authenticate-form{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    .input-group{
+        padding: 1rem 1.5rem;
+        border-bottom: 0.1rem solid #c5c3c2;
+        background-color: #fff;
+        label{
+            display: inline-block;
+            width: 30%;
+        }
+        input{
+            font-size: 1.5rem;
+            display: inline-block;
+            width: 60%;
+            border: none;
+            outline: none;
+        }
+        .iosselect{
+            color: #aaa9a9;
+        }
+    }
+    .submit-btn{
+        font-size: 1.5rem;
+        display: block;
+        width: 92%;
+        margin: 1.5rem auto 1rem;
+        padding: 0.8rem 0;
+        background-color: #38A2FA;
+        border: none;
+        border-radius: 0.3rem;
+        color: #ffffff;
+    }
+}
+/*------------------------- add  end--------------------------------*/
+/*------------------------- list start--------------------------------*/
+.house-list{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    .house-item{
+        background-color: #fff;
+        border-bottom: 0.1rem solid #c5c3c2;
+        a{
+            display: block;
+            padding: 1rem 1rem;
+            color: #000000;
+        }
+        .right{
+            margin-top:0.4rem;
+            float: right;
+        }
+    }
+}
+.add-anthentication{
+    display: block;
+    width: 92%;
+    font-size: 1.5rem;
+    margin: 1.5rem auto 1rem;
+    padding: 0.8rem 0;
+    background-color: #38A2FA;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+/*------------------------- list end--------------------------------*/

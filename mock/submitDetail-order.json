@@ -1,0 +1,15 @@
+{
+  "code": "0",
+  "ext": "success",
+  "obj": {
+    "1": {
+      "id": "1",
+      "createtime": "2016-11-22 18:30:54",
+      "description": "房顶漏水",
+      "pic": "1,2",
+      "verifiedstate": "待受理",
+      "repairname": null,
+      "repairphone": null
+    }
+  }
+}

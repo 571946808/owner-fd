@@ -1,0 +1,14 @@
+@import "partial/base";
+@import "partial/header";
+@import "partial/footer";
+
+body{
+    font-family: "Microsoft Yahei";
+    background: #f0f0f0;
+}
+.error-field{
+	margin-top: 1rem;
+	margin-left: 2rem;
+	color: red;
+	font-size: 1.2rem;
+}

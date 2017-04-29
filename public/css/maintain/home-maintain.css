@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+.maintain-form {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  border-top: 0.1rem solid #c5c3c2; }
+  .maintain-form .input-group {
+    background-color: #fff;
+    border-bottom: 0.1rem solid #c5c3c2; }
+  .maintain-form label {
+    display: inline-block;
+    width: 20%;
+    text-align: center; }
+  .maintain-form input {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 78%;
+    border: none;
+    padding: 1rem 0;
+    outline: none; }
+  .maintain-form .maintain-type {
+    padding-top: 0.8rem;
+    display: inline-block;
+    width: 78%;
+    vertical-align: middle;
+    text-align: center; }
+  .maintain-form .maintain-type li{
+    font-size: 1rem;
+    color: #3a3939;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 0.8rem; }
+  .maintain-form .maintain-type li label.blue{
+    background-color: #38A2FA;
+    color: white;
+  }
+  .maintain-form .maintain-type li label.white{
+    background-color: white;
+    color: #3a3939;
+  }
+  .maintain-form .maintain-type li label {
+    width:100%;
+    padding: 0.5rem 0.5rem;
+    border: 0.1rem solid #38A2FA;
+    border-radius: 0.3rem;
+  }
+  .maintain-form .maintain-type li input  {
+    display: none;
+  } 
+  .maintain-form .describe-title {
+    padding: 1rem 0rem 1rem 0.7rem; }
+  .maintain-form .maintain-describe {
+    display: block;
+    width: 90%;
+    padding: 1% 1%;
+    height: 7rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    outline: none;
+    margin-bottom: 1rem; }
+  .maintain-form .image-wrapper {
+    position: relative;
+    display: inline-block; }
+  .maintain-form .image-upload {
+    display: none; }
+  .maintain-form .img-preview {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem; }
+  .maintain-form button {
+    font-size: 1.5rem;
+    display: block;
+    width: 92%;
+    margin: 1.5rem auto 1rem;
+    padding: 0.8rem 0;
+    background-color: #38A2FA;
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff; }
+  
+/*# sourceMappingURL=home-maintain.css.map */

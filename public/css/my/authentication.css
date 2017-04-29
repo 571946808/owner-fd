@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+/*------------------------- add start--------------------------------*/
+.authenticate-form {
+  margin-top: 1rem;
+  font-size: 1.5rem; }
+  .authenticate-form .input-group {
+    padding: 1rem 1.5rem;
+    border-bottom: 0.1rem solid #c5c3c2;
+    background-color: #fff; }
+    .authenticate-form .input-group label {
+      display: inline-block;
+      width: 30%; }
+    .authenticate-form .input-group input {
+      font-size: 1.5rem;
+      display: inline-block;
+      width: 60%;
+      border: none;
+      outline: none; }
+    .authenticate-form .input-group .iosselect {
+      color: #aaa9a9; }
+  .authenticate-form .submit-btn {
+    font-size: 1.5rem;
+    display: block;
+    width: 92%;
+    margin: 1.5rem auto 1rem;
+    padding: 0.8rem 0;
+    background-color: #38A2FA;
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff; }
+
+/*------------------------- add  end--------------------------------*/
+/*------------------------- list start--------------------------------*/
+.house-list {
+  font-size: 1.5rem;
+  margin-top: 1rem; }
+  .house-list .house-item {
+    background-color: #fff;
+    border-bottom: 0.1rem solid #c5c3c2; }
+    .house-list .house-item a {
+      display: block;
+      padding: 1rem 1rem;
+      color: #000000; }
+    .house-list .house-item .right {
+      margin-top: 0.4rem;
+      float: right; }
+
+.add-anthentication {
+  display: block;
+  width: 92%;
+  font-size: 1.5rem;
+  margin: 1.5rem auto 1rem;
+  padding: 0.8rem 0;
+  background-color: #38A2FA;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 0.3rem; }
+
+/*------------------------- list end--------------------------------*/
+
+/*# sourceMappingURL=authentication.css.map */

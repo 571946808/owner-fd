@@ -1,0 +1,21 @@
+{
+    "code": 0,
+    "list": [
+        {"id":1, "residence_name": "银湖柳苑1", "unit":"5栋5单元1"},
+        {"id":2, "residence_name": "银湖柳苑2", "unit":"5栋5单元2"},
+        {"id":3, "residence_name": "银湖柳苑3", "unit":"5栋5单元3"},
+        {"id":1, "residence_name": "银湖柳苑1", "unit":"5栋5单元4"},
+        {"id":2, "residence_name": "银湖柳苑2", "unit":"5栋5单元5"},
+        {"id":3, "residence_name": "银湖柳苑3", "unit":"5栋5单元6"},
+        {"id":1, "residence_name": "银湖柳苑1", "unit":"5栋5单元7"},
+        {"id":2, "residence_name": "银湖柳苑2", "unit":"5栋5单元8"},
+        {"id":3, "residence_name": "银湖柳苑3", "unit":"5栋5单元9"},
+        {"id":1, "residence_name": "银湖柳苑1", "unit":"5栋5单元0"},
+        {"id":2, "residence_name": "银湖柳苑2", "unit":"5栋5单元11"},
+        {"id":3, "residence_name": "银湖柳苑3", "unit":"5栋5单元12"},
+        {"id":1, "residence_name": "银湖柳苑1", "unit":"5栋5单元13"},
+        {"id":2, "residence_name": "银湖柳苑2", "unit":"5栋5单元14"},
+        {"id":3, "residence_name": "银湖柳苑3", "unit":"5栋5单元15"}
+    ],
+    "errMsg": "错误信息"
+}
