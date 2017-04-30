@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+.home {
+  padding: 0.2rem 0.8rem; }
+  .home .head {
+    margin: 0.4rem; }
+    .home .head .username {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 1.0rem; }
+  .home .notice {
+    border: 1px solid #ccc;
+    margin: 0.4rem;
+    padding: 0.4rem 0.6rem; }
+    .home .notice .message {
+      list-style: none; }
+    .home .notice h3 {
+      font-size: 1.5rem; }
+    .home .notice p {
+      line-height: 2.0rem;
+      width: 90%;
+      display: inline-block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap; }
+    .home .notice a {
+      margin-left: 90%;
+      color: #000; }
+  .home .field {
+    margin: 0.5rem 0.4rem; }
+    .home .field a {
+      display: inline-block;
+      padding: 1.0rem 1.1rem;
+      border: 1px solid #ccc;
+      margin-right: 1.5%;
+      color: #000;
+      width: 24%;
+      text-align: center; }
+
+.main-bottom {
+  margin: 0.4rem; }
+  .main-bottom h3 {
+    font-size: 1.5rem; }
+  .main-bottom .photo img {
+    width: 45%;
+    height: 10rem;
+    margin: 0.5rem 0.8rem 0.5rem 0; }
+
+/*# sourceMappingURL=home.css.map */

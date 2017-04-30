@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import "../partial/base";
+.title{
+    margin-top: 1.0rem;
+    padding: 1.0rem 2.5rem;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+.fa-tie{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 0.7rem 0.5rem;
+
+    a{        
+        color: #000;
+        font-size: 1.2rem;
+    }
+    .left{
+        float: left;
+        margin-left: 1.0rem;
+    }
+    .right{
+        float: right;
+        margin-right: 1.0rem;
+    }
+}
+.message{
+    border: 1px solid #ccc;
+    border-bottom: none;
+
+    li{
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin-top: 0.5rem;
+        padding: 1.0rem;
+
+        .name{
+            font-size: 1.5rem;
+        }
+        p{
+            line-height: 1.8rem;
+            font-size: 1.2rem;
+        }
+        span{
+            line-height: 2.0rem;
+            font-size: 1.2rem;
+        }
+    }
+}

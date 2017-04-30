@@ -21,7 +21,8 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
                     files:[
                         'public/js/home/home.js',
                         'public/js/partial/footer.js',
-                        'public/css/partial/footer.css'
+                        'public/css/partial/footer.css',
+                        'public/css/home/home.css'
                     ]
                 })
             }]
@@ -36,7 +37,27 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
             loadMyCtrl:function ($ocLazyLoad) {
                 return $ocLazyLoad.load({
                     name:'neighborHomeController',
-                    files:['public/js/neighbor/home.js']
+                    files:[
+                        'public/js/neighbor/home.js',
+                        'public/css/neighbor/home.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    $stateProvider.state('send',{
+        url:'/send',
+        templateUrl:'views/neighbor/send.html',
+        controller: 'sendController',
+        resolve:{
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'sendController',
+                    files:[
+                        'public/js/neighbor/send.js',
+                        'public/css/neighbor/send.css'
+                    ]
                 })
             }
         }
@@ -50,7 +71,44 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
             loadMyCtrl:function ($ocLazyLoad) {
                 return $ocLazyLoad.load({
                     name:'reportHomeController',
-                    files:['public/js/report/home.js']
+                    files:[
+                        'public/js/report/home.js',
+                        'public/css/report/report.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    $stateProvider.state('reportgzh',{
+        url: '/reportgzh',
+        templateUrl: 'views/report/report-gzh.html',
+        controller: 'reportGzhController',
+        resolve:{
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'reportGzhController',
+                    files:[
+                        'public/js/report/report-gzh.js',
+                        'public/css/report/report-gzh.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    $stateProvider.state('reportwy',{
+        url: '/reportwy',
+        templateUrl: 'views/report/report-wy.html',
+        controller: 'reportWyController',
+        resolve:{
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'reportWyController',
+                    files:[
+                        'public/js/report/report-wy.js',
+                        'public/css/report/report-gzh.css'
+                    ]
                 })
             }
         }
@@ -70,7 +128,58 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
                 })
             }
         }
-    })
+    });
+
+    $stateProvider.state('reset', {
+        url: '/reset',
+        templateUrl: 'views/my/reset.html',
+        controller: 'resetController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'resetController',
+                    files:[
+                        'public/js/my/reset.js',
+                        'public/css/my/reset.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    $stateProvider.state('contact', {
+        url: '/contact',
+        templateUrl: 'views/my/contact.html',
+        controller: 'contactController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'contactController',
+                    files:[
+                        'public/js/my/contact.js',
+                        'public/css/my/contact.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    $stateProvider.state('messageList', {
+        url: '/messageList',
+        templateUrl: 'views/my/messageList.html',
+        controller: 'messageListController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'messageListController',
+                    files:[
+                        'public/js/my/messageList.js',
+                        'public/css/my/messageList.css'
+                    ]
+                })
+            }
+        }
+    });
 
     $stateProvider.state('login', {
         url: '/login',
@@ -230,6 +339,45 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
             }
         }
     });
+
+    //访客授权
+    $stateProvider.state('visit', {
+        url: '/visit',
+        templateUrl: 'views/maintain/visit.html',
+        controller: 'visitController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'visitController',
+                    files:[
+                        'public/js/maintain/visit.js',
+                        'public/css/maintain/visit.css',
+                        'public/libs/calendar/dist/css/LCalendar.min.css',
+                        'public/libs/calendar/dist/js/LCalendar.min.js'
+                    ]
+                })
+            }
+        }
+    });
+
+    //访客授权列表
+    $stateProvider.state('visitList', {
+        url: '/visitList',
+        templateUrl: 'views/maintain/visitList.html',
+        controller: 'visitListController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'visitListController',
+                    files:[
+                        'public/js/maintain/visitList.js',
+                        'public/css/maintain/visitList.css'
+                    ]
+                })
+            }
+        }
+    });
+
     //提交详情
     $stateProvider.state('submitDetail', {
         url: '/submitDetail/:id',

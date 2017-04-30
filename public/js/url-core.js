@@ -24,12 +24,27 @@
     		'getSMSCode': site.website + '/owner-bd/index.php/Home/SMS/getSMSCode',
     		'checkSMSCode': site.website + '/owner-bd/index.php/Home/SMS/checkSMSCode',
     		'getPicCode': site.website + '/owner-bd/index.php/Home/CheckCode/getPicCode',
-    		'register': site.website + '/owner-bd/index.php/Home/Register/register'
+    		'register': site.website + '/owner-bd/index.php/Home/Register/register',
+            'resetPassword': site.website + '/owner-bd/index.php/Home/Reset/reset'
     	},
+        Home:{
+            'getInfo': site.website + '/owner-bd/index.php/Home/Index/getInfo'
+        },
         MainTain:{
             'submitHome': site.website + '/owner-bd/index.php/Home/HomeMaintain/homeMaintain',
-            'submitPublic': site.website + '/owner-bd/index.php/Home/PublicMaintain/publicMaintain'
-
-        }
+            'submitPublic': site.website + '/owner-bd/index.php/Home/PublicMaintain/publicMaintain',
+            'submitVisit': site.website + '/owner-bd/index.php/Home/Visit/visit',
+            'getVisitList': site.website + '/owner-bd/index.php/Home/Visit/visitList'
+        },
+        Neighbor:{
+            'send': site.website + '/owner-bd/index.php/Home/Neighbor/send',
+            'get': site.website + '/owner-bd/index.php/Home/Neighbor/get',
+            'getList': site.website + '/owner-bd/index.php/Home/MessageList/getList',
+            'getListLimt': site.website + '/owner-bd/index.php/Home/MessageList/getListLimt'
+        },
+        Report:{
+            'commentgzh': site.website + '/owner-bd/index.php/Home/Report/gzh',
+            'commentwy': site.website + '/owner-bd/index.php/Home/Report/wy'
+        }      
     }
 })();

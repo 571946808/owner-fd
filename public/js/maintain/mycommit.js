@@ -14,7 +14,7 @@ app.controller('mycommitController', function ($scope,$http, $rootScope,$httpPar
 	 * 我的提交[pageTitle description]
 	 * @type {String}
 	 */
-	$scope.types = function()
+	$scope.types = function(){
 		$http({
 			method:'POST',
 			// url:'/owner-bd/index.php/Home/',
@@ -32,3 +32,5 @@ app.controller('mycommitController', function ($scope,$http, $rootScope,$httpPar
         }, function errorCallback(response) {
 			console.error('ajax失败');	
 		});
+    }
+});

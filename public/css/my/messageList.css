@@ -36,34 +36,24 @@ a {
   zoom: 1; }
 
 /* IE7 */
-.choice {
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  background-color: #fff;
-  font-size: 1.3rem;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 2.8rem; }
+.title {
+  padding: 1.0rem 2.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+  margin: 0.5rem; }
+  .title p {
+    text-align: center;
+    font-weight: bold; }
 
-.wrapper {
-  margin-top: 5rem;
-  font-size: 1.5rem;
-  text-align: center; }
+.list {
+  margin: 0.5rem 0rem; }
+  .list ul {
+    list-style: none; }
+    .list ul li {
+      border: 1px solid #ccc;
+      margin: 0.5rem;
+      padding: 0.5rem; }
+      .list ul li p {
+        line-height: 1.8rem; }
 
-a {
-  color: #696969; }
-
-.one {
-  background-color: #D3D3D3;
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  line-height: 3.5rem; }
-
-.two {
-  background-color: #D3D3D3;
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  margin-top: 1rem;
-  line-height: 3.5rem; }
-
-/*# sourceMappingURL=maintain.css.map */
+/*# sourceMappingURL=messageList.css.map */

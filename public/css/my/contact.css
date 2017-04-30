@@ -36,34 +36,8 @@ a {
   zoom: 1; }
 
 /* IE7 */
-.choice {
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  background-color: #fff;
-  font-size: 1.3rem;
-  text-align: center;
-  margin: 0 auto;
-  line-height: 2.8rem; }
+p {
+  font-size: 1.2rem;
+  line-height: 2.0rem; }
 
-.wrapper {
-  margin-top: 5rem;
-  font-size: 1.5rem;
-  text-align: center; }
-
-a {
-  color: #696969; }
-
-.one {
-  background-color: #D3D3D3;
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  line-height: 3.5rem; }
-
-.two {
-  background-color: #D3D3D3;
-  border-top: 0.1rem solid #c5c3c2;
-  border-bottom: 0.1rem solid #c5c3c2;
-  margin-top: 1rem;
-  line-height: 3.5rem; }
-
-/*# sourceMappingURL=maintain.css.map */
+/*# sourceMappingURL=contact.css.map */

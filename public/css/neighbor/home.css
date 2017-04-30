@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+.title {
+  margin-top: 1.0rem;
+  padding: 1.0rem 2.5rem;
+  border: 1px solid #ccc;
+  font-size: 1.2rem; }
+
+.fa-tie {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0.7rem 0.5rem; }
+  .fa-tie a {
+    color: #000;
+    font-size: 1.2rem; }
+  .fa-tie .left {
+    float: left;
+    margin-left: 1.0rem; }
+  .fa-tie .right {
+    float: right;
+    margin-right: 1.0rem; }
+
+.message {
+  border: 1px solid #ccc;
+  border-bottom: none; }
+  .message li {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0.5rem;
+    padding: 1.0rem; }
+    .message li .name {
+      font-size: 1.5rem; }
+    .message li p {
+      line-height: 1.8rem;
+      font-size: 1.2rem; }
+    .message li span {
+      line-height: 2.0rem;
+      font-size: 1.2rem; }
+
+/*# sourceMappingURL=home.css.map */

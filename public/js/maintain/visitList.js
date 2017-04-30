@@ -1,11 +1,13 @@
-angular.module('sunApp').controller('neighborHomeController', function ($scope, $rootScope, $http,$httpParamSerializer,$state) { 
+angular.module('sunApp').controller('visitListController', function ($scope, $rootScope, $http,$httpParamSerializer,$state) { 
+    //头部title
+    $rootScope.pageTitle = "访客授权列表";
     $rootScope.hasHeader = false;
     $rootScope.hasFooter = true;
 
     $scope.load = function(){
         $http({
             method:'POST',
-            url: api_Data.Neighbor.get,
+            url: api_Data.MainTain.getVisitList,
             headers:{
                 'Content-Type':'application/x-www-form-urlencoded'
             }

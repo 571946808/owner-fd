@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import "../partial/base";
+.main-form{
+    margin-top: 1rem;
+    font-size:1.3rem;
+    border-top: 0.1rem solid #c5c3c2;
+    .input-group{
+        background-color: #fff;
+        border-bottom: 0.1rem solid #c5c3c2;
+    }
+    label{
+        display: inline-block;
+        width: 20%;
+        text-align: center;
+    }
+    input{
+        font-size: 1.5rem;
+        display: inline-block;
+        width: 78%;
+        border:none;
+        padding: 1rem 0;
+        outline:none;
+    }
+    .describe-title{
+        padding: 1rem 0rem 1rem 0.7rem;
+    }
+    .main-describe{
+        display:block;
+        width: 90%;
+        padding: 1% 1%;
+        height: 7rem;
+        font-size: 1.2rem;
+        border-radius: 0.3rem;
+        margin: 0 auto;
+        outline: none;
+        margin-bottom: 1rem;
+    }
+    button{
+        font-size: 1.5rem;
+        display: block;
+        width: 92%;
+        margin: 1.5rem auto 1rem;
+        padding: 0.8rem 0;
+        background-color: #38A2FA;
+        border: none;
+        border-radius: 0.3rem;
+        color: #ffffff;
+    }
+}

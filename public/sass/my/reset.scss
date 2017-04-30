@@ -1,0 +1,43 @@
+@import "../partial/base";
+.login-form{
+    margin-top: 1rem;
+    .input-group{
+        padding: 0 1.5rem;
+        background-color: #fff;
+        border-top: 0.1rem solid #c5c3c2;
+        border-bottom: 0.1rem solid #c5c3c2;
+    }
+    input{
+        font-size: 1.5rem;
+        display: block;
+        width: 100%;
+        border: none;
+        padding: 1rem 0;
+        outline:none;
+    }
+    .username{
+        border-bottom: 0.1rem solid #c5c3c2;
+        border-radius: 0;
+    }
+    .help-link{
+        font-size: 1.2rem;
+        margin: 1rem 1.5rem;
+        a{
+            color: #38A2FA;
+        }
+        .find-pwd{
+            float: right;
+        }
+    }
+    .login-btn{
+        font-size: 1.5rem;
+        display: block;
+        width: 92%;
+        margin: 1.5rem auto 1rem;
+        padding: 0.8rem 0;
+        background-color: #38A2FA;
+        border: none;
+        border-radius: 0.3rem;
+        color: #ffffff;
+    }
+}
