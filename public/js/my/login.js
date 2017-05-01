@@ -9,7 +9,7 @@
  * ------------------------------------------------------------*/
 angular.module('sunApp').controller('myLoginController', function($scope, $rootScope, $httpParamSerializer, $http, $state){
     //头部title
-    $rootScope.pageTitle = "登录";
+    // $rootScope.pageTitle = "登录";
     /**
      * 登录
      * @return {[type]} [description]

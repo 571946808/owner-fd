@@ -1,16 +1,20 @@
 <div class="head">
-    <div class="face">
-        <a href="" class="face-item"></a>
-        <p name="" class="name">李小璐</p>
+    <div class="face" data-ng-init="load()">
+        <div class="face-item">
+            <!-- <img src="public/img/touxiang.jpg" alt=""> -->
+        </div>
+        <div ng-repeat="item in formData">
+            <p name="" class="name">{{item.ownername}}</p>
+        </div>
     </div>
 </div>
 <div class="content">
     <ul>
-        <li class="li-frist">
+        <!-- <li class="li-frist">
             <a href="#" class="list"> 个人资料
                 <span class="fa fa-chevron-right back-icon"></span>
             </a>
-        </li>
+        </li> -->
         <li class="li-frist">
             <a ui-sref="authenticationList" class="list">认证信息
                 <span class="identification">去认证</span>
@@ -44,7 +48,7 @@
             </a>
         </li>
         <li class="li-frist">
-            <a href="#" class="list">退出登录
+            <a href="#/login" class="list" ng-click="exit()">退出登录
                 <span class="fa fa-chevron-right back-icon"></span>
             </a>
         </li>

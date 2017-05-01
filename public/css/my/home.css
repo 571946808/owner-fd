@@ -39,6 +39,7 @@ a {
 .footer {
   background: #f0f0f0;
   position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%; }
   .footer ul {
@@ -74,8 +75,8 @@ a {
       margin-top: 3rem;
       width: 8rem;
       height: 8rem;
-      background: #595959;
-      border-radius: 5.5rem; }
+      border-radius: 5.5rem;
+      background: url(../../img/touxiang.jpg) no-repeat; }
     .head .face .name {
       width: 100%;
       padding-top: 0.5rem;

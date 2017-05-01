@@ -34,7 +34,10 @@
             'submitHome': site.website + '/owner-bd/index.php/Home/HomeMaintain/homeMaintain',
             'submitPublic': site.website + '/owner-bd/index.php/Home/PublicMaintain/publicMaintain',
             'submitVisit': site.website + '/owner-bd/index.php/Home/Visit/visit',
-            'getVisitList': site.website + '/owner-bd/index.php/Home/Visit/visitList'
+            'getVisitList': site.website + '/owner-bd/index.php/Home/Visit/visitList',
+            'getMoneyList': site.website + '/owner-bd/index.php/Home/Money/moneyList',
+            'getMoneyDetail': site.website + '/owner-bd/index.php/Home/Money/moneyDetail',
+            'sendFankui': site.website + '/owner-bd/index.php/Home/Money/fankui'
         },
         Neighbor:{
             'send': site.website + '/owner-bd/index.php/Home/Neighbor/send',

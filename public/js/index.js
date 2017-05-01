@@ -117,13 +117,15 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
     $stateProvider.state('my',{
         url: '/my',
         templateUrl: 'views/my/home.html',
+        controller: 'myHomeController',
         resolve:{
             loadMyCtrl:function ($ocLazyLoad) {
                 return $ocLazyLoad.load({
-                    name:'ownerEditController',
+                    name:'myHomeController',
                      files:[
                         'public/css/my/home.css',
-                        'public/js/partial/footer.js',
+                        'public/js/my/home.js',
+                        'public/js/partial/footer.js'
                     ]
                 })
             }
@@ -232,6 +234,26 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
             }
         }
     });
+
+    $stateProvider.state('renzheng', {
+        url: '/renzheng',
+        templateUrl: 'views/my/renzheng.html',
+        controller: 'renzhengController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'renzhengController',
+                    files:[
+                        'public/js/my/renzheng.js',
+                        'public/css/my/authentication.css',
+                        'public/libs/iosselect/merge/iosSelect.js',
+                        'public/libs/iosselect/merge/iosSelect.css',
+                        'public/libs/iosselect/merge/areaData_v2.js'
+                    ]
+                })
+            }
+        }
+    });
     $stateProvider.state('authenticationEdit', {
         url: '/authenticationEdit/:id',
         templateUrl: 'views/my/authentication-edit.html',
@@ -284,6 +306,79 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
             }
         }
     });
+
+    //缴费
+    $stateProvider.state('money', {
+        url: '/money',
+        templateUrl: 'views/maintain/money.html',
+        controller: 'moneyController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'moneyController',
+                    files:[
+                        'public/js/maintain/money.js',
+                        'public/css/maintain/money.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    //缴费详情
+    $stateProvider.state('moneyDetail', {
+        url: '/moneyDetail',
+        templateUrl: 'views/maintain/moneyDetail.html',
+        controller: 'moneyDetailController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'moneyDetailController',
+                    files:[
+                        'public/js/maintain/moneyDetail.js',
+                        'public/css/maintain/moneyDetail.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    //缴费反馈
+    $stateProvider.state('fankui', {
+        url: '/fankui',
+        templateUrl: 'views/maintain/fankui.html',
+        controller: 'fankuiController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'fankuiController',
+                    files:[
+                        'public/js/maintain/fankui.js',
+                        'public/css/maintain/fankui.css'
+                    ]
+                })
+            }
+        }
+    });
+
+    //缴费列表
+    $stateProvider.state('moneyList', {
+        url: '/moneyList',
+        templateUrl: 'views/maintain/moneyList.html',
+        controller: 'moneyListController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'moneyListController',
+                    files:[
+                        'public/js/maintain/moneyList.js',
+                        'public/css/maintain/moneyList.css'
+                    ]
+                })
+            }
+        }
+    });
+
     //维修报修
     $stateProvider.state('maintain', {
         url: '/maintain',

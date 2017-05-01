@@ -182,7 +182,7 @@ $scope.submit = function(){
     $http({
         method: 'POST',
         // url: 'mock/common.json',
-        url: api_Data.MainTain.submit,
+        url: api_Data.My.register,
         headers:{        
             'Content-Type':'application/x-www-form-urlencoded'      
         },
@@ -190,7 +190,7 @@ $scope.submit = function(){
         data: $httpParamSerializer(formData)
     }).then(function successCallback(response){
         if(response.data.code == 0){
-            $state.go('login');
+            $state.go('renzheng');
         }else{
             layer.open({
                 content: response.data.errMsg,
