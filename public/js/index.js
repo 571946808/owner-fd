@@ -325,6 +325,24 @@ sunApp.config(function ($stateProvider,$urlRouterProvider) {
         }
     });
 
+    //缴费
+    $stateProvider.state('saomiao', {
+        url: '/saomiao',
+        templateUrl: 'views/maintain/saomiao.html',
+        controller: 'saomiaoController',
+        resolve: {
+            loadMyCtrl:function ($ocLazyLoad) {
+                return $ocLazyLoad.load({
+                    name:'saomiaoController',
+                    files:[
+                        'public/js/maintain/saomiao.js',
+                        'public/css/maintain/saomiao.css'
+                    ]
+                })
+            }
+        }
+    });
+
     //缴费详情
     $stateProvider.state('moneyDetail', {
         url: '/moneyDetail',

@@ -1,0 +1,23 @@
+@import "../partial/base";
+.title{
+    margin-top: 1.0rem;
+    padding: 1.0rem 2.5rem;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    display: block;
+    color: #000;
+}
+.money-body{
+    margin-top: 1.0rem;
+    font-size: 1.2rem;
+
+    a{
+        display: inline-block;
+        padding: 12% 1.0rem;
+        width: 23%;
+        margin: 1.0rem 0.1rem;
+        border: 1px solid #ccc; 
+        text-align: center;
+        color: #000;
+    }
+}

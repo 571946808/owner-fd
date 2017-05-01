@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+@media (min-device-width: 375px) {
+  html {
+    font-size: 12px; } }
+@media (min-device-width: 414px) {
+  html {
+    font-size: 15px; } }
+@media (min-device-width: 768px) {
+  html {
+    font-size: 20px; } }
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0); }
+
+/*__clearfix
+--------------------------------------------------------------------------------------------*/
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+form.send {
+  margin: 1.5rem 2.0rem; }
+  form.send textarea {
+    width: 100%; }
+  form.send button {
+    font-size: 1.5rem;
+    display: block;
+    width: 100%;
+    margin: 1.5rem auto 1rem;
+    padding: 0.8rem 0;
+    background-color: #38A2FA;
+    border: none;
+    border-radius: 0.3rem;
+    color: #ffffff; }
+
+/*# sourceMappingURL=fankui.css.map */

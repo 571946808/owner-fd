@@ -1,0 +1,20 @@
+@charset "utf-8";
+@import "../partial/base";
+form.send{
+    margin: 1.5rem 2.0rem;
+
+    textarea{
+        width: 100%;
+    }
+    button{
+        font-size: 1.5rem;
+        display: block;
+        width: 100%;
+        margin: 1.5rem auto 1rem;
+        padding: 0.8rem 0;
+        background-color: #38A2FA;
+        border: none;
+        border-radius: 0.3rem;
+        color: #ffffff;
+    }
+}
